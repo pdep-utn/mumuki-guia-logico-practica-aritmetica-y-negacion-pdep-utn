@@ -1,0 +1,1 @@
+¡Ya vimos muchos temas nuevos! Aritmética, inversibiidad, `not`, `forall`... ¡es hora de practicar!

@@ -1,0 +1,1 @@
+No agregues información que no se provea en el enunciado. Al asumir ciertas cosas que no se explicitan podés llegar a un resultado distinto del esperado.

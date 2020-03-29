@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puntajeTotal
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puntajeLanzamientoPrecision
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puntajeFuerzaMartillo
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puntajeEquilibrioEscoba
+  inspection: Not:HasBinding

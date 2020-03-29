@@ -1,0 +1,23 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puedoHacer
+  inspection: HasArity:1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puedoHacer
+  inspection: HasUsage:meFaltaPara
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puedoHacer
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  inspection: HasBinding
+  binding: meFaltaPara
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  inspection: HasBinding
+  binding: anterior
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: meFaltaPara
+  inspection: HasArity:2
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: anterior
+  inspection: HasArity:2

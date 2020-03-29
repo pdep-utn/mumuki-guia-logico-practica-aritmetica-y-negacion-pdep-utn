@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esAlcoholica
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esAlcoholica
+  inspection: HasUsage:esVino
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esAlcoholica
+  inspection: HasUsage:esWhisky
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esWhisky
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esVino
+  inspection: Not:HasBinding

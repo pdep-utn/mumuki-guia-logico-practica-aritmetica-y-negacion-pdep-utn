@@ -9,11 +9,11 @@ Sabiendo esto, queremos un predicado que nos diga que opciones tenemos para usar
 ```prolog
 ? tipoDeAplicacion(8, 7, parcial).
 yes % porque si a una función de 8 parametros
-    % la aplico con 7, es una aplicaicón parcial
+    % la aplico con 7, es una aplicación parcial
 
 ? tipoDeAplicacion(4, 4, total).
 yes % porque si a una función de 4 parametros
-    % la aplico con 4, es una aplicaicón parcial
+    % la aplico con 4, es una aplicación total
 
 
 ? tipoDeAplicacion(2, 0, Tipo).
